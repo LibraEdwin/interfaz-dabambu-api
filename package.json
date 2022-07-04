@@ -1,0 +1,48 @@
+{
+  "name": "backendnode",
+  "version": "0.1.0",
+  "description": "Api - web service DaBambu",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "Node"
+  ],
+  "author": "Jorge Winder",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^5.18.3",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parse": "^0.1.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.0-rc1",
+    "mssql": "^6.2.3",
+    "multer": "^1.4.2",
+    "nanoid": "^2.1.11",
+    "nodemon": "^2.0.5",
+    "ora": "^5.1.0",
+    "passport": "^0.4.1",
+    "passport-http": "^0.3.0",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "rimraf": "^3.0.2",
+    "socket.io": "^4.4.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0"
+  }
+}
